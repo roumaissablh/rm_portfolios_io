@@ -1,0 +1,28 @@
+
+
+.work-section{
+    height: auto;
+}
+
+.work-section .projects-container .top{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.projects .projects-container .bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects .projects-container .bottom .box{
+    margin-bottom: 1rem;
+}
+
+
+@media (max-width: 700px){
+    .work-section{
+        height: auto;
+    }
+}
